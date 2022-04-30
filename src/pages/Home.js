@@ -1,16 +1,16 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import BannerImage from '../assets/scenery.jpg';
+import JumbotronImage from '../assets/jumbotron.jpg';
 import '../styles/Home.css';
 
 function Home() {
   return (
-    <div className='home' style={{backgroundImage: `url(${BannerImage})`}}>
+    <div className='home' style={{backgroundImage: `url(${JumbotronImage})`}}>
       <div className='jumbotron'>
-        <h1>Wilbert's Restaurant</h1>
+        <h1>Fried Rice Restaurant</h1>
         <p>React Restaurant Website Portfolio</p>
         <Link to='menu'>
-          <button>Learn More</button>
+          <button>See Menu</button>
         </Link>
       </div>
     </div>
